@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "nyt-franklin";
+    src: url("../fonts/franklin-normal-500.woff2") format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "nyt-franklin";
+    src: url("../fonts/franklin-normal-600.woff2") format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "nyt-franklin";
+    src: url("../fonts/franklin-normal-700.woff2") format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "nyt-imperial";
+    src: url("../fonts/imperial-normal-400.woff2") format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "nyt-cheltenham";
+    src: url("../fonts/cheltenham-italic-700.woff2") format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.b-header {
+  height: 48px;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px 3px;
+}
+
+.b-header__left-container {
+  display: none;
+}
+
+.b-header__hamburger {
+
+}
+
+.b-header__search-icon {
+
+}
+
+.b-header__subsection {
+
+}
+
+.b-header__logo {
+  width: 189px;
+  height: 26px;
+}
+
+.b-header__right-container {
+  margin-top: -3px;
+}
+
+.b-header__subscribe-link {
+  display: none;
+}
+
+.b-header__log-in {
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  width: 64px;
+  height: 32px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.b-article {
+  margin-top: 30px;
+}
+
+.b-article__header {
+}
+
+.b-article__title {
+  font-size: 31px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 36px;
+  color: #121212;
+  margin: 0 20px 20px;
+  max-width: 301px;
+}
+
+.b-article__main-picture-container {
+  margin-bottom: 32px;
+}
+
+.b-article__main-picture-caption-container {
+  margin: 6px 20px 0;
+  font-family: nyt-imperial, georgia, 'times new roman',times,serif;
+}
+
+.b-article__main-picture-caption {
+  color: #666;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 7px;
+}
+
+.b-article__main-picture-copyright {
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+  letter-spacing: 0.12px;
+}
+
+.b-article__metadata {
+  margin: 0 20px 25px;
+
+}
+
+.b-article__author {
+  margin-bottom: 15px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  color: #333;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+  font-size: 14px;
+}
+
+.b-article__author > a {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  color: #333;
+}
+
+.b-article__date-social-container {
+  display: flex;
+  margin-top: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-article__date {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.b-article__social {
+  display: flex;
+  list-style: none;
+}
+
+.b-article__social-item {
+  display: inline-block;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+
+.b-article__facebook-icon,
+.b-article__twitter-icon {
+  border-radius: 100%;
+  border: 1px solid #eee;
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+  background-color: #eee;
+}
+
+.b-article__facebook-icon:hover,
+.b-article__twitter-icon:hover {
+  background-color: #fff;
+}
+
+.b-article__bookmark-icon {
+  background: none;
+  border: none;
+}
+
+.b-article__comment-count {
+  position: relative;
+  width: 36px;
+  height: 25px;
+  border-radius: 4px;
+  border-color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #000;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+.b-article__comment-count:before {
+  bottom: -7px;
+  content: "";
+  display: block;
+  left: 15px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(102, 102, 102) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 8px;
+}
+
+.b-article__comment-count:after {
+  bottom: -6px;
+  content: "";
+  display: block;
+  left: 16px;
+  position: absolute;
+  width: 0px;
+  border-color: rgb(255, 255, 255) transparent;
+  border-style: solid;
+  border-width: 6px 0px 0px 6px;
+}
+
+.b-article__content {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
